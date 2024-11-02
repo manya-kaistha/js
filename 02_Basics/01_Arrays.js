@@ -11,7 +11,7 @@ console.log(myArr[0])
 
 // myArr.pop() // removes the last element
 // myArr.shift()//removes the first element
-// myArr.unshift(0) // adds an element at the beginning
+// myArr.unshift(0) // adds an element at the beginning//in effecient as moves all the leements fo the array
 
 // console.log(myArr)
 
