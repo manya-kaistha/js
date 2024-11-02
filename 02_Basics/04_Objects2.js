@@ -36,5 +36,30 @@ const users =[
 
 console.log(users[1].id) //prints id of nabhu
 
-console.log(Object.keys(tinderUser))// this outputs an array which can 
+console.log(Object.keys(tinderUser))// this outputs an array which can be iterated through
+console.log(Object.values(tinderUser))// this outputs an array which can be iterated through
+console.log(Object.entries(tinderUser))// prints both key and value both as arrays
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))//checks if a key is present
 
+//****************** object destructuring**********************
+const course = {
+    courseName: "js in hindi",
+    price: 999,
+    courseInstructor: "manya"
+}
+console.log(course.courseInstructor)// it is verbose to keep writting couse.courseInstructor
+// so we use the syntax below to make it easier on ourselves
+
+const {courseInstructor} = course //extract value from course of courseInstructor
+const {courseInstructor: instructor} = course // basically assigning value of courseinstructor ot instructor
+// thsi syntax will be useful while learning React
+console.log(courseInstructor)
+
+//++++++++++++API+++++JSON+++++++++
+// {
+//     courseName: "js in hindi",
+//     price: 999,
+//     courseInstructor: "manya"
+// }
+// thsi is how json looks
+//json is an object like ds
