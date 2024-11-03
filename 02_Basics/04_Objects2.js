@@ -54,6 +54,7 @@ const {courseInstructor} = course //extract value from course of courseInstructo
 const {courseInstructor: instructor} = course // basically assigning value of courseinstructor ot instructor
 // thsi syntax will be useful while learning React
 console.log(courseInstructor)
+console.log(instructor)
 
 //++++++++++++API+++++JSON+++++++++
 // {
